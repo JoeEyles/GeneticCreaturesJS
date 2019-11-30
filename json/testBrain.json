@@ -1,0 +1,44 @@
+{
+    "nodes": [
+        {
+            "id": 0,
+            "inputType": "input_0",
+            "outputType": ""
+        },
+        {
+            "id": 1,
+            "inputType": "input_1",
+            "outputType": ""
+        },
+        {
+            "id": 2,
+            "inputType": "",
+            "outputType": ""
+        },
+        {
+            "id": 3,
+            "inputType": "",
+            "outputType": "output_0"
+        }
+    ],
+    "edges": [
+        {
+            "id": 0,
+            "startId": 0,
+            "endId": 2,
+            "weight": 1.0
+        },
+        {
+            "id": 1,
+            "startId": 1,
+            "endId": 2,
+            "weight": 0.5
+        },
+        {
+            "id": 2,
+            "startId": 2,
+            "endId": 3,
+            "weight": 0.75
+        }
+    ]
+}
